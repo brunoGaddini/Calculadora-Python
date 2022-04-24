@@ -4,6 +4,10 @@ while True:
     num1 = input('Digite um número: ')
     num2 = input('Digite outro número: ')
     operador = input('Digite um operador: ')
+    sair = input('Deseja sair? [S]im ou [N]]ão: ')
+
+    if sair == 's':
+        break
 
     # + - / *
 
